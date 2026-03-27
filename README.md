@@ -1,8 +1,8 @@
-# CSC-branded template
+# LUMI AI Factory branded template
 
 This is a template to create a [Jekyll] site that:
 
-- has CSC branding and colours;
+- has LUMI AI Factory branding and colours;
 - can be built and published on [GitHub Pages];
 - can be built and previewed locally, and published on other platforms;
 - is built on top of [Just the Docs] theme.
