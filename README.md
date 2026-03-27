@@ -18,3 +18,4 @@ This puts the live link right at the top of the repo so you never have to rememb
 
 [^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
 
+Every time you push a commit to github, the website will be redeployed.
