@@ -20,3 +20,5 @@ gh_edit_branch: "main"
 # Technical Features
 enable_copy_code_button: true
 math: mathjax # use: https://just-the-docs.github.io/just-the-docs-tests/components/math/mathjax/tests/
+
+color_scheme: dark
