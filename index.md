@@ -5,7 +5,7 @@ nav_order: 1
 ---
 
 # CSC Learning Template
-This is the official template for creating clean, branded self-learning course sites. By using this template, you ensure that your training materials match the **CSC** and **LUMI AI Factory** visual identity automatically.
+This is the official template for creating clean, branded self-learning course sites. By using this template, you ensure that your training materials match the **LUMI AI Factory** visual identity automatically.
 
 For a quick overview of the Markdown syntax elements refer to [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/).
 
@@ -44,7 +44,7 @@ You can use special "Callout Boxes" to highlight information for your students a
 ---
 
 ## 💻 Technical Content
-* **Sidebar Links:** Navigation links will turn Purple when you hover over them.
+* **Links:** Links will turn Purple when you hover over them.
 * **Inline Commands:** Use backticks to show code like `srun --pty bash`.
 * **Code blocks** Use triple backticks to show multiline blocks of code. When user hovers over it, the copy button appears. You must have an empty line before and after the block as such: 
 
@@ -62,7 +62,7 @@ To add an image, place it in `assets/images/` and use this syntax:
 
 ![Description of the image](assets/images/spring-school.jpg)
 
-To add an image with a caption underneath and resize the image use this simple HTML:
+To add an image with a caption underneath and/or resize the image use this simple HTML:
 <figure style="text-align: left;">
   <img src="assets/images/summer-school.jpg" style="width: 50%;">
   <figcaption><i>Figure 1: Spring School on Computational Chemistry 2024.</i></figcaption>
