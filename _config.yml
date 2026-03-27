@@ -21,4 +21,4 @@ gh_edit_branch: "main"
 enable_copy_code_button: true
 math: mathjax # use: https://just-the-docs.github.io/just-the-docs-tests/components/math/mathjax/tests/
 
-color_scheme: dark
+color_scheme: nil
