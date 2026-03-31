@@ -122,3 +122,10 @@ iframe[src*="youtube-nocookie.com"] {
     background: $light-purple !important; /* Using a solid color so nothing bleeds through */
   }
 }
+
+// 9. Site Title / Logo Button
+.site-header .site-title:hover {
+  background: $light-purple !important; /* Forces your solid purple */
+  /* If you also want the text to turn magenta on hover, uncomment the line below */
+  // color: $LUMI-magenta !important; 
+}
