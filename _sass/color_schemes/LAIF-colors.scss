@@ -21,7 +21,6 @@ $link-color:          $LUMI-blue;
 $body-text-color:     $LUMI-black;
 $nav-child-link-color: $LUMI-magenta;
 $sidebar-color: $very-light-purple;
-$nav-list-item-active-bg: $LUMI-magenta;
 
 
 // 3. Branded Callouts (Notes & Warnings)
@@ -81,7 +80,7 @@ div.highlighter-rouge {
   border: 1px solid rgba($LUMI-blue, 0.1);
 
   &:hover {
-    background-color: $LUMI-blue;
+    background-color: $LUMI-magenta;
     color: $LUMI-magenta !important;
   }
 }
