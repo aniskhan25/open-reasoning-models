@@ -1,8 +1,8 @@
-title: CSC Learning Materials
+title: LUMI AIF Learning Materials
 description: Official training documentation for CSC staff and partners.
 theme: just-the-docs
 logo: "LAIF_horizontal_logo_dark.png"
-color_scheme: CSC-colors
+color_scheme: LAIF-colors
 
 # Navigation & Search
 search_enabled: false
@@ -20,5 +20,3 @@ gh_edit_branch: "main"
 # Technical Features
 enable_copy_code_button: true
 math: mathjax # use: https://just-the-docs.github.io/just-the-docs-tests/components/math/mathjax/tests/
-
-color_scheme: nil
