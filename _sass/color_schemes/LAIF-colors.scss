@@ -98,17 +98,20 @@ iframe[src*="youtube-nocookie.com"] {
 }
 
 // 8. Sidebar Navigation
-.site-nav {
+.site-nav .nav-list .nav-list-item .nav-list-link {
+  
   // Styles for hovering over a link in the sidebar
-  .nav-list-link:hover {
+  &:hover {
     color: $LUMI-magenta !important; 
-    background-color: rgba($LUMI-blue, 0.1) !important; // The highlight behind the text
+    background-image: none !important; /* Kills the default theme gradient */
+    background-color: rgba($LUMI-blue, 0.1) !important; /* Forces the LUMI blue highlight */
   }
 
   // Styles for the "current page" you are actively viewing
-  .nav-list-link.active {
+  &.active {
     color: $LUMI-magenta !important; 
     font-weight: 600 !important; 
-    background-color: rgba($LUMI-blue, 0.05) !important; // Optional: leaves a faint highlight on the active page
+    background-image: none !important; /* Ensures active pages don't get the gradient either */
+    background-color: rgba($LUMI-blue, 0.05) !important; // Leaves a faint highlight on the active page
   }
 }
