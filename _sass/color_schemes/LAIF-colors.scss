@@ -53,12 +53,14 @@ div.highlighter-rouge {
   min-width: min(100%, 450px) !important;
   max-width: 100% !important;
   background-color: $very-light-blue !important;
+  box-shadow: none !important;
 
   .highlight {
     background-color: transparent !important;
     padding: 1rem !important;
     padding-right: 3.5rem !important; // Safe zone for default button
     margin: 0 !important;
+    box-shadow: none !important;
   }
 }
 
