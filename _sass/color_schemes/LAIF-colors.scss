@@ -72,7 +72,7 @@ div.highlighter-rouge {
 }
 
 .aux-nav-list-item a {
-  background-color: $LUMI-purple;
+  background-color: $light-purple;
   padding: 6px 15px !important;
   border-radius: 20px;
   font-size: 13px;
@@ -80,7 +80,6 @@ div.highlighter-rouge {
   border: 1px solid rgba($LUMI-blue, 0.1);
 
   &:hover {
-    background-color: $LUMI-blue !important;
     color: $LUMI-magenta !important;
   }
 }
