@@ -64,11 +64,7 @@ div.highlighter-rouge {
     border: none !important; /* Kills the inner black border */
     outline: none !important;
 
-    pre {
-      border: none !important; /* Kills any border on the pre tag itself */
-      background-color: transparent !important;
-      margin: 0 !important;
-    }
+    pre {border: none !important; /* Kills any border on the pre tag itself */}
   }
 }
 
