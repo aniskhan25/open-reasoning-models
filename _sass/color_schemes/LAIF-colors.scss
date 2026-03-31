@@ -94,17 +94,28 @@ iframe[src*="youtube-nocookie.com"] {
   margin: 1.5rem 0;
 }
 
-// 8. Sidebar Navigation (Forced Override)
-.site-nav .nav-list-link:hover,
-.site-nav .nav-list-item:hover > .nav-list-link {
-  color: $LUMI-magenta !important; 
-  /* Using the shorthand 'background' destroys any gradients the theme is hiding */
-  background: rgba($LUMI-blue, 0.1) !important; 
-}
+// 8. Sidebar Navigation
+.site-nav {
+  // 1. Wipe the default hover background off the parent list item
+  .nav-list-item:hover {
+    background: transparent !important;
+  }
 
-.site-nav .nav-list-link.active,
-.site-nav .nav-list-item.active > .nav-list-link {
-  color: $LUMI-magenta !important; 
-  font-weight: 600 !important; 
-  background: rgba($LUMI-blue, 0.05) !important; 
+  // 2. Apply the solid color to the link itself
+  .nav-list-link:hover {
+    color: $LUMI-magenta !important; 
+    background: $light-blue !important; /* Using your solid light-blue variable */
+  }
+
+  // 3. Wipe the default active background off the parent list item
+  .nav-list-item.active {
+    background: transparent !important;
+  }
+
+  // 4. Apply the active styles
+  .nav-list-link.active {
+    color: $LUMI-magenta !important; 
+    font-weight: 600 !important; 
+    background: $light-purple !important; /* Using a solid color so nothing bleeds through */
+  }
 }
