@@ -119,7 +119,7 @@ iframe[src*="youtube-nocookie.com"] {
   // 4. Apply the active styles
   .nav-list-link.active {
     font-weight: 600 !important; 
-    background: $very-light-purple !important; /* Using a solid color so nothing bleeds through */
+    background: $light-purple !important; /* Using a solid color so nothing bleeds through */
   }
 }
 
