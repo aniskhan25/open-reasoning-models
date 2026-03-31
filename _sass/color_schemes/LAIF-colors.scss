@@ -78,7 +78,7 @@ div.highlighter-rouge {
   border: 1px solid $light-blue !important;
 
   &:hover {
-    background-color: #ebebf0 !important;
+    background-color: $light-purple !important;
     color: $LUMI-magenta !important;
   }
 }
@@ -104,7 +104,7 @@ iframe[src*="youtube-nocookie.com"] {
   // 2. Apply the solid color to the link itself
   .nav-list-link:hover {
     color: $LUMI-magenta !important; 
-    background: $light-blue !important; /* Using your solid light-blue variable */
+    background: $light-purple !important; /* Using your solid light-blue variable */
   }
 
   // 3. Wipe the default active background off the parent list item
@@ -114,7 +114,6 @@ iframe[src*="youtube-nocookie.com"] {
 
   // 4. Apply the active styles
   .nav-list-link.active {
-    color: $LUMI-magenta !important; 
     font-weight: 600 !important; 
     background: $light-purple !important; /* Using a solid color so nothing bleeds through */
   }
