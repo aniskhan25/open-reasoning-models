@@ -20,3 +20,7 @@ Why reasoning should be understood as controlled state improvement rather than j
 ### [Chapter 1: Three Open Reasoning Models](chapter1)
 
 Three different ways current open models make reasoning behavior more visible.
+
+### [Chapter 2: How Open Reasoning Models Are Trained](chapter2)
+
+How reasoning-model training changes the quality of the trajectory through staged pipelines, scoring, and reinforcement-oriented updates.
