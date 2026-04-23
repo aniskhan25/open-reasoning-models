@@ -1,3 +1,9 @@
+---
+layout: default
+title: Chapter 2 - How Open Reasoning Models Are Trained
+nav_order: 4
+---
+
 # How Open Reasoning Models Are Trained
 
 ## 1. Why baseline training is not enough
