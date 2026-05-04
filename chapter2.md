@@ -39,17 +39,6 @@ So the shortest useful summary is:
 
 ![Generate → Score → Update](assets/images/2_training_loop.png)
 
-> generate -> score -> update
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'background': '#ffffff', 'primaryColor': '#ffffff', 'primaryTextColor': '#111111', 'primaryBorderColor': '#111111', 'lineColor': '#111111', 'secondaryColor': '#ffffff', 'tertiaryColor': '#ffffff' }}}%%
-flowchart TD
-    A["Strong pretrained model"] --> B["Generate trajectory"]
-    B --> C["Score trajectory"]
-    C --> D["Update model"]
-    D --> E["Generate better trajectory next time"]
-```
-
 The important point is that the target may include visible reasoning text, but it is not limited to visible text. What matters is the quality of the underlying decision sequence.
 
 ## 4. How that becomes a real pipeline
